@@ -37,3 +37,35 @@ add_executable(thread2_tests
 
 target_link_libraries(thread2_tests TestLibrary)
 
+
+add_executable(cpp98_test1
+               cpp98/test1.cpp)
+
+target_link_libraries(cpp98_test1)
+
+
+add_executable(cpp98_test2
+               cpp98/test2.cpp)
+
+target_link_libraries(cpp98_test2)
+
+
+add_executable(cpp98_test3
+               cpp98/test3.cpp)
+
+target_link_libraries(cpp98_test3)
+
+add_executable(cpp98_test4
+               cpp98/test4.cpp)
+
+target_link_libraries(cpp98_test4)
+
+add_executable(cpp98_test5
+               cpp98/test5.cpp)
+
+target_link_libraries(cpp98_test5)
+
+add_executable(cpp98_test6
+               cpp98/test6.cpp)
+
+target_link_libraries(cpp98_test6)
