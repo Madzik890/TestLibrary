@@ -73,4 +73,9 @@ target_link_libraries(cpp98_test6)
 add_executable(cpp98_test7
                cpp98/test7.cpp)
 
-target_link_libraries(cpp98_test6)
+target_link_libraries(cpp98_test7)
+
+add_executable(cpp98_test8
+               cpp98/test8.cpp)
+
+target_link_libraries(cpp98_test8)
